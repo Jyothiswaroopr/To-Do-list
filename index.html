@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div id="loginContainer">
+        <h1>Login</h1>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        
+        
+        <div class="button-container">
+            <button onclick="login()">Login</button>
+            <button onclick="register()">Register</button>
+        </div>
+    </div>
+
+    <div id="todoContainer" style="display:none;">
+        <h1>To-Do List<img src="todo image.png"></h1>
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
