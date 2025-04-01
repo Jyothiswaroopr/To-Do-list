@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://to-do-list-o8em.onrender.com";
 let userId = localStorage.getItem("userId");
 
 // Register User
